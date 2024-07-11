@@ -1,3 +1,7 @@
-#About my project
+# SWIFTJ1727.8-1613 QPO Analysis
 
-I am looking at light curves from observations of SwiftJ1727.8-1613 X-ray binaries for Quasi-Periodic Oscillations for the Institute for Computing in Research 2024  
+I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi Periodic Oscillations in an indirect analysis of the system and its properties.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
