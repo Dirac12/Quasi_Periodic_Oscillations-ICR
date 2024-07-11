@@ -8,28 +8,24 @@ Install Anaconda and create a new environment for this project
 
 ```
 conda create -n <env name> batanalysis matplotlib astropy numpy scipy
-
 ```
 
 Then to enter:
 
 ```
 conda activate <env name>
-
 ```
 
 ### BatAnalysis Installation
 
 ```
 pip install batanalysis
-
 ```
 
 ```
 git clone https://github.com/parsotat/BatAnalysis.git
 cd BatAnalysis/
 pip install -e .
-
 ```
 
 
