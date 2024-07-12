@@ -65,9 +65,4 @@ table_stoo = swt.ObsQuery(begin=timerange[0],end=timerange[1])
 print(f"{len(table_stoo)} entries starting with")
 for e in table_stoo[:5]:
     print(e)
-sourcename = "Swift J1727.8-1613"
-obsid='00096727251'   # I know this is a good example observation 
-match=['*brtms*']   # string found in filenames for Bat RaTe 64 MS lightcurve data
 
-downloaded = ba.download_swiftdata(observations=[obsid], match=match, quiet=True)
-downloaded
