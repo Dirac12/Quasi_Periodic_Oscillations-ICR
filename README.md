@@ -27,6 +27,24 @@ git clone https://github.com/parsotat/BatAnalysis.git
 cd BatAnalysis/
 pip install -e .
 ```
+## Running
+
+```
+python3 swiftJ1727_lightcurve.py
+```
+
+For simple visualization
+
+```
+python3 plot_counts.py
+```
+
+A Fourier Transform of the light curve
+```
+python3 Fourier.py
+```
+
+
 
 
 ## License
