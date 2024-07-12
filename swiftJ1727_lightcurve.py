@@ -23,7 +23,7 @@ binedges = np.array([15,25,50,100,350])
 
 sourcename = "Swift J1727.8-1613"
 # Just the original huge peak (without its tail)
-timerange = [swiftbat.string2datetime(t) for t in ("MJD60186", "MJD60200")]
+timerange = [swiftbat.string2datetime(t) for t in ("MJD60183", "MJD60186")]
 minexposure = 1000     # cm^2 after cos adjust
 
 
