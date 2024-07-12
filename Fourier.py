@@ -97,3 +97,5 @@ axes[1].legend() #
 axes[1].set(title=f"harmonic of {freqmax:.5f} Hz", xlabel="Frequency and harmonic-adjusted frequency (Hz)")
 fig.tight_layout()
 
+plt.show()
+
