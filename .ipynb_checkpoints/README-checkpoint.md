@@ -7,7 +7,7 @@ I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi
 Install Anaconda and create a new environment for this project
 
 ```
-conda create -n <env name> batanalysis matplotlib astropy numpy scipy boto3 sgp4
+conda create -n <env name> batanalysis matplotlib astropy numpy scipy
 ```
 
 Then to enter:
