@@ -44,9 +44,9 @@ A Fourier Transform of the light curve
 python3 Fourier.py
 ```
 
-To run notebook, make sure Jupyter Lab is installed
+To run notebook, make sure Jupyter Notebook is installed and run
 ```
-jupyter lab
+jupyter notebook J1727.ipynb
 ```
 
 
