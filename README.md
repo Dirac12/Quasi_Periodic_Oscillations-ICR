@@ -4,7 +4,9 @@ I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi
 
 ## Installations and Getting Started
 
-Make sure you have installed  Anaconda and create a new environment for this project
+First install Anaconda, where you can find instructions here: <a href="https://docs.anaconda.com/anaconda/install/linux/" target="_blank">InstallAnaconda</a>
+
+It is additionally recommended that you create a new environment for this project
 
 ```
 conda create -n astro batanalysis matplotlib astropy numpy scipy boto3 sgp4 pathlib stingray lmfit
