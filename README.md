@@ -7,26 +7,15 @@ I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi
 Install Anaconda and create a new environment for this project
 
 ```
-conda create -n <env name> batanalysis matplotlib astropy numpy scipy boto3 sgp4
+conda create -n astro batanalysis matplotlib astropy numpy scipy boto3 sgp4
 ```
 
 Then to enter:
 
 ```
-conda activate <env name>
+conda activate astro
 ```
 
-### BatAnalysis Installation
-
-```
-pip install batanalysis
-```
-
-```
-git clone https://github.com/parsotat/BatAnalysis.git
-cd BatAnalysis/
-pip install -e .
-```
 ## Running
 
 ```
