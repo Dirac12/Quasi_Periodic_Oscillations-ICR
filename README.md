@@ -4,10 +4,10 @@ I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi
 
 ## Installations and Getting Started
 
-Install Anaconda and create a new environment for this project
+Make sure you have installed  Anaconda and create a new environment for this project
 
 ```
-conda create -n astro batanalysis matplotlib astropy numpy scipy boto3 sgp4
+conda create -n astro batanalysis matplotlib astropy numpy scipy boto3 sgp4 pathlib stingray lmfit
 ```
 
 Then to enter:
@@ -33,11 +33,16 @@ A Fourier Transform of the light curve
 python3 Fourier.py
 ```
 
-To run notebook, make sure Jupyter Notebook is installed and run
+To run the notebook, first install Jupyter Notebook by running 
+```
+python -m pip install jupyter
+```
+
+Then to open the Jupyter notebook for this project run:
+
 ```
 jupyter notebook J1727.ipynb
 ```
-
 
 ## License
 
