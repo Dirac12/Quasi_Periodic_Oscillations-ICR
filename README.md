@@ -3,6 +3,12 @@
 I am analyzing light curves from the observations of SWIFTJ1727.8-1613 for Quasi Periodic Oscillations in an indirect analysis of the system and its properties.
 
 ## Installations and Getting Started
+First clone this repository with:
+
+```
+git clone git@github.com:Dirac12/SWIFT-Quasi_Periodic_Oscillations.git
+```
+
 
 First install Anaconda, where you can find instructions here: <a href="https://docs.anaconda.com/anaconda/install/linux/" target="_blank">InstallAnaconda</a>
 
@@ -19,6 +25,11 @@ conda activate astro
 ```
 
 ## Running
+
+Enter the SWIFT directory by running
+```
+cd SWIFT-Quasi_Periodic_Oscillations
+```
 
 To download initial data run the following in a terminal:
 ```
