@@ -56,7 +56,7 @@ Then to open the Jupyter Notebook for further analysis
 for this project run:
 
 ```
-jupyter notebook J1727.ipynb
+jupyter notebook J1727_4.ipynb
 ```
 
 ## License
